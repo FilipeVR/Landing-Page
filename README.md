@@ -1,0 +1,1 @@
+A landing page template with only html and css.
