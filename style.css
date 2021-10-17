@@ -1,5 +1,9 @@
 /*Start of page's header styling*/
 
+html {
+  overflow-x: hidden;
+}
+
 .header {
     background-color: #1f2937;
     padding-top: 15px;
