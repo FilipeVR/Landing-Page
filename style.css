@@ -5,7 +5,7 @@ html {
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: green;
     padding-top: 15px;
     padding-bottom: 100px;
     margin-top: -10px;
@@ -26,7 +26,7 @@ html {
 .header-logo {
     font-size: 24px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #0d98ba;
 }
 
 .header-right {
@@ -46,7 +46,7 @@ ul {
   
   a {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #0d98ba;
     text-decoration: none;
   }
 
@@ -55,8 +55,8 @@ ul {
       justify-content: center;
       align-items: center;
       flex-shrink: 0;
-      background-color:rgba(255, 255, 255, 0.466);
-      color: white;
+      background-color:greenyellow;
+      color: #0d98ba;
       width: 520px; 
       height: 220px
   }
@@ -65,13 +65,13 @@ ul {
       width: 300px;
       font-size: 48px;
       font-weight:bolder;
-      color: #f9faf8;
+      color: #0d98ba;
       margin-top: -10px;
   }
 
   .header-text p {
       font-size: 18px;
-      color: #e5e7eb;
+      color: #0d98ba;
       width: 400px;
       margin-top: -35px;
       flex: auto;
@@ -87,11 +87,12 @@ ul {
       padding-left: 25px;
       padding-top: 6px;
       padding-bottom: 6px;
-      background: #3882f6;
-      color: white;
+      background: #0d98ba;
+      color: green;
       font-weight: bolder;
       font-size: 18px;
-      border-color: #3882f6;
+      border-style: double;
+      border-color: #0d98ba;
       border-radius: 8px;
   }
 /*************************End of page's header styling**************************/
@@ -101,14 +102,17 @@ ul {
   .container {
       padding-top: 50px;
       padding-bottom: 100px;
+      background-color: greenyellow;
+      margin-right: -10px;
+      margin-left: -10px;
   }
 
   .container-img-placeholder {
       width: 160px;
       height: 160px;
-      border: 3.8px solid #3882f6;
+      border: 3.8px solid orange;
       border-radius: 8px;
-      background-color: white;
+      background-color: #0d98ba;
   }
 
   .title {
@@ -116,6 +120,7 @@ ul {
     font-weight: 900;
     display: flex;
     justify-content: center;
+    color: #0d98ba;
   }
   
   .supergroup {
@@ -123,6 +128,10 @@ ul {
     justify-content: center;
     margin-top: 40px;
     column-gap: 20px;
+  }
+
+  .supergroup .text{
+    color: #0d98ba;
   }
   
   .group {
@@ -146,7 +155,7 @@ ul {
 /*Start of page's quote container styling*/
 
   .quote-container {
-      background-color: #e5e7eb;
+      background-color: #0d98ba;
       padding-top: 100px;
       padding-bottom: 100px;
       margin-right: -10px;
@@ -161,13 +170,13 @@ ul {
       font-style: italic;
       font-size: 36px;
       font-weight: 300;
-      color: #1f2937;
+      color: orange;
       width: 750px;
   }
 
   .author {
       font-size: 28px;
-      color: #1f2937;
+      color: orange;
       font-weight: bolder;
       margin-right: -500px;
   }
@@ -181,20 +190,23 @@ ul {
     align-items: center;
     height: 300px;
     width: auto;
+    background-color: greenyellow;
+    margin-right: -10px;
+    margin-left: -10px;
   }
 
   .cta-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882f6;
+    background-color: orange;
     height: 100px;
     width: 1000px;
     border-radius: 8px;
   }
 
   .cta-text p {
-    color: #f9faf8;
+    color: #0d98ba;
   }
 
   .line-one {
@@ -211,12 +223,12 @@ ul {
     padding-left: 25px;
     padding-top: 6px;
     padding-bottom: 6px;
-    background: #3882f6;
-    color: white;
+    background: #0d98ba;
+    color: orange;
     font-weight: bolder;
     font-size: 18px;
     border-style: double;
-    border-color: white;
+    border-color: #0d98ba;
     border-radius: 8px;
   }
 /**************************End of page's cta container styling*************************/
@@ -227,8 +239,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
-    color: #e5e7eb;
+    background-color: green;
+    color: #0d98ba;
     margin: -10px;
     font-weight: 500;
   }
